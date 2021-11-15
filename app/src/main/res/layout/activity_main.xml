@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/login_1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kisspng_fishing_royalty_free_clip_art_blue_fish_5aa4404cd74f69_2885810415207138048819" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="283dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="216dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center_horizontal"
+        android:text="Selamat Datang\n PT. Sebelah Amis"
+        android:textAlignment="center"
+        android:textColor="#56599C"
+        android:textFontWeight="700"
+        android:textSize="72px"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="241dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="320dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center_horizontal"
+        android:text="Untuk Masuk Silahkan Login"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textFontWeight="700"
+        android:textSize="40px"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="299dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="364dp"
+        android:background="@drawable/user_bg"
+        android:fontFamily="@font/roboto"
+        android:hint="User Name"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="299dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="64dp"
+
+        android:layout_marginTop="364dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="299dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="432dp"
+        android:background="@drawable/user_bg"
+        android:fontFamily="@font/roboto"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="245dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="504dp"
+        android:backgroundTint="@color/Blue"
+        android:fontFamily="@font/roboto"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:cornerRadius="50px"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
